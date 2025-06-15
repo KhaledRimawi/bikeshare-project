@@ -1,6 +1,11 @@
 import time
 import pandas as pd
 import numpy as np
+"""
+Asks the user to specify city, month, and day to filter bikeshare data.
+This helps in narrowing down the dataset before analysis.
+"""
+# This function is used to collect user inputs for filtering
 
 CITY_DATA = {
     'chicago': 'chicago.csv',
